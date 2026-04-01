@@ -241,7 +241,7 @@ journalctl -u prometheus -f --no-pager
 - If you go to targets, you should see only one - Prometheus target. It scrapes itself every 15 seconds by default.
 
 - Install Node Exporter on Ubuntu 22.04
-- Next, we're going to set up and configure Node Exporter to collect Linux system metrics like CPU load and disk I/O. Node Exporter will expose these as Prometheus-style metrics. Since the installation process is very similar, I'm not going to cover as deep as Prometheus.
+- Next, we're going to set up and configure Node Exporter to collect Linux system metrics like CPU load and disk I/O. Node Exporter will expose these as Prometheus-style metrics. 
 - First, let's create a system user for Node Exporter by running the following command:
 
 ```bash
@@ -322,7 +322,7 @@ sudo systemctl status node_exporter
 journalctl -u node_exporter -f --no-pager
 ```
 
-- At this point, we have only a single target in our Prometheus. There are many different service discovery mechanisms built into Prometheus. For example, Prometheus can dynamically discover targets in AWS, GCP, and other clouds based on the labels. In the following tutorials, I'll give you a few examples of deploying Prometheus in a cloud-specific environment. For this tutorial, let's keep it simple and keep adding static targets. Also, I have a lesson on how to deploy and manage Prometheus in the Kubernetes cluster.
+- At this point, we have only a single target in our Prometheus. There are many different service discovery mechanisms built into Prometheus. For example, Prometheus can dynamically discover targets in AWS, GCP, and other clouds based on the labels. . For this project, let's keep it simple and keep adding static targets. Also, I have a lesson on how to deploy and manage Prometheus in the Kubernetes cluster.
 - To create a static target, you need to add job_name with static_configs.
 
 ```bash
@@ -463,14 +463,14 @@ http://<ip>:9090/targets
 - Go to your Gmail and click on your profile
 - Then click on Manage Your Google Account --> click on the security tab on the left side panel you will get this page(provide mail password).
 - 2-step verification should be enabled.
-- Search for the app in the search bar you will get app passwords like the below image
+- Search for the app in the search bar you will get app passwords 
 - Click on other and provide your name and click on Generate and copy the password
-- In the new update, you will get a password like this
-- Once the plugin is installed in Jenkins, click on manage Jenkins --> configure system there under the E-mail Notification section configure the details as shown in the below image
+- In the new update, you will get a password.
+- Once the plugin is installed in Jenkins, click on manage Jenkins --> configure system there under the E-mail Notification section configure the details.
 - Click on Apply and save.
 - Click on Manage Jenkins--> credentials and add your mail username and generated password
 - This is to just verify the mail configuration
-- Now under the Extended E-mail Notification section configure the details as shown in the below images
+- Now under the Extended E-mail Notification section configure the details .
 - Click on Apply and save.
 
 ```bash
@@ -481,7 +481,7 @@ post {
             body: "Project: ${env.JOB_NAME}<br/>" +
                 "Build Number: ${env.BUILD_NUMBER}<br/>" +
                 "URL: ${env.BUILD_URL}<br/>",
-            to: 'rutik@gmail.com',  #change Your mail
+            to: 'roshiniawslearn123@gmail.com',  
             attachmentsPattern: 'trivyfs.txt,trivyimage.txt'
         }
     }
