@@ -706,6 +706,8 @@ sudo apt-get update
 
 sudo apt-get install -y kubelet kubeadm kubectl
 
+sudo snap install kube-apiserver
+
 ```
 
 - Part 3 --------------- Master ---------------
