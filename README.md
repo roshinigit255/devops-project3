@@ -907,7 +907,7 @@ kubectl get svc #use anyone
 
 ## Step 13: Access the Netflix app on the Browser
 
-- ![image](https://github.com/rutikdevops/DevOps-Project-11/assets/109506158/c9fd56c4-8e24-40bd-b67a-c7cce5edc16a)
+- <img width="725" height="440" alt="image" src="https://github.com/user-attachments/assets/27dc0fae-ff0f-4a00-8113-25812b067ca7" />
 - ![image](https://github.com/rutikdevops/DevOps-Project-11/assets/109506158/0662da82-ad5c-45c1-a81b-10152b33cb44)
 - ![image](https://github.com/rutikdevops/DevOps-Project-11/assets/109506158/3d6ace51-0218-475a-8b3d-0a3813c5413f)
 - ![image](https://github.com/rutikdevops/DevOps-Project-11/assets/109506158/6db0292e-be3e-40d7-85ef-2541bfc0f79f)
