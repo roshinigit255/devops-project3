@@ -835,7 +835,8 @@ sudo systemctl status node_exporter
 journalctl -u node_exporter -f --no-pager
 ```
 
-- At this point, we have only a single target in our Prometheus. There are many different service discovery mechanisms built into Prometheus. For example, Prometheus can dynamically discover targets in AWS, GCP, and other clouds based on the labels. In the following tutorials, I'll give you a few examples of deploying Prometheus in a cloud-specific environment. For this tutorial, let's keep it simple and keep adding static targets. Also, I have a lesson on how to deploy and manage Prometheus in the Kubernetes cluster.
+- At this point, we have only a single target in our Prometheus. There are many different service discovery mechanisms built into Prometheus. For example, Prometheus can dynamically discover targets in AWS, GCP, and other clouds based on the labels.let's keep it simple and keep adding static targets.
+  
 - To create a static target, you need to add job_name with static_configs. Go to Prometheus server
 
 ```bash
